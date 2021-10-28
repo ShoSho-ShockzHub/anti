@@ -1,5 +1,5 @@
-	for i, v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
-	if v:IsA("BasePart") then
-	v:Destroy()
-	end
-	end
+for i, v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+if v:IsA("BasePart") then
+v:Destroy()
+end
+end
